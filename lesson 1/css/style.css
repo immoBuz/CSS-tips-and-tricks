@@ -1,0 +1,10 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    clip-path: xywh(0 0 15% 100% round 15% 0%);
+    transition: all 1s ease;
+}
+.container:hover{
+    clip-path: xywh(0 0 100% 100% round 15% 0);
+}
